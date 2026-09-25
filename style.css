@@ -1,33 +1,9 @@
-.titulo{color: #070707;
+.titulo{color: #ffffff;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif, sans-serif;
-  font-size: 50px;
-  border: 1px;
-  border-color: #ffffff;
-}
-.nome{
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-   border: 1px;
-  border-color: #ffffff;
-}
-.nome img {
-  width: 150px;
-  height: 150px;
-  border: 1px solid #070707;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 25px;
   
 }
-.final{
-  background-color: aliceblue;
-  font-size: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px solid;
-  border-color: black;
-}
-
 body{
-  background-color: #947e027c;
-
+  background-color: #947e027c
 }
