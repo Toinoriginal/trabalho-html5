@@ -5,6 +5,8 @@ header{
   align-items: center;
   background-color:#f4f4f6;
   padding: 25px 20px;
+  border: 2px solid #f4f4f6;
+  border-radius: 4px;
 }
 header nav a{
   
@@ -14,6 +16,7 @@ header nav a{
   background-color: #800080;
   padding: 5px 10px;
   transition:0.3s;
+  text-decoration: none;
 }
 header nav a:hover{
   color: #1a1a1a;
@@ -37,22 +40,71 @@ main img{
   text-align: center;
 }
 .final h2{
+  display:flex;
+  justify-content: center;
   text-align: center;
-  width:400px;
 }
-.finalimg{
-  height: 150px;
-  width: 200px;
-  align-items: center;
-}
-.final2 h2{
-  text-align: center;
-  width:400px;
-}
-.final2 img{
-  height:125px;
-  width:200px;
+h2{
+  display:flex;
   align-items: center;
+  justify-content: center;
+}
+.final.container-flex{
+   display:flex;
+   justify-content: center;
+  align-items: center;
+  gap:5px;
+}
+.final .container-flex img{
+  width:100px;
+  height: auto;
+}
+.final2 h2{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.final2 .container-flex{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.final2 .container-flex img{
+  display:flex;
+  width:100px;
+  height: auto;
+}
+footer {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 10px;
+  background-color:#f4f4f6;
+  margin-top: 15px;
+  border: 2px solid #f4f4f6;
+  border-radius: 4px;
+}
+footer img{
+  height: 150px;
+  width:150px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  padding: 1px;
+}
+footer a{
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid #800080;
+  border-radius: 4px;
+  background-color: #800080;
+  padding: 5px 10px;
+  transition:0.3s;
+}
+footer a:hover{
+  color: #1a1a1a;
+  background-color:#f1c40f;
 }
 body{
   background-color: #ffffff
