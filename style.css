@@ -27,6 +27,7 @@ main{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-decoration:none;
 }
 main img{
   height: 150px;
@@ -35,6 +36,12 @@ main img{
   border-radius: 50%;
   padding: 1px;
   margin-top: 30px;
+}
+.p p{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .paragrafo{
   text-align: center;
@@ -75,6 +82,24 @@ h2{
   width:100px;
   height: auto;
 }
+.git{
+  margin-top: 100px;
+}
+.git a{
+  text-decoration: none;
+}
+.foto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.foto img{
+  width: 150px;
+  height: auto;
+  border: 2px solid #000000;
+}
 footer {
   display:flex;
   align-items: center;
@@ -82,7 +107,7 @@ footer {
   flex-direction: column;
   padding: 12px 10px;
   background-color:#f4f4f6;
-  margin-top: 15px;
+  margin-top: 50px;
   border: 2px solid #f4f4f6;
   border-radius: 4px;
 }
@@ -92,21 +117,31 @@ footer img{
   border: 2px solid #000000;
   border-radius: 50%;
   padding: 1px;
-}
-footer a{
-  text-decoration: none;
-  color: #000000;
-  border: 2px solid #800080;
-  border-radius: 4px;
-  background-color: #800080;
-  padding: 5px 10px;
-  transition:0.3s;
-}
-footer a:hover{
-  color: #1a1a1a;
-  background-color:#f1c40f;
+  margin-bottom: 10px;
 }
 body{
   background-color: #ffffff
-
+}
+.sobremim{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.p{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.links{
+  background-color: #e0f7fa;
+}
+.s{
+  background-color: #e0f7fa;
+  margin-top:5px;
+}
+.c{
+  background-color: #e0f7fa;
+  margin-top:25px;
 }
